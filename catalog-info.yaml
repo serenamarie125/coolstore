@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: coolstore
+  description: |
+    Cool store
+  annotations:
+    github.com/project-slug: serenamarie125/coolstore
+    backstage.io/kubernetes-id: coolstore
+spec:
+  type: website
+  owner: janus-authors
+  lifecycle: experimental
